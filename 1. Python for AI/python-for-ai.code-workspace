@@ -3,5 +3,9 @@
         {
             "path": "python-for-ai"
         }
-    ]
+    ],
+    "settings": {
+        "python.defaultInterpreterPath": "${workspaceFolder}/python-for-ai/.venv/bin/python3",
+        "python.terminal.activateEnvInCurrentTerminal": true
+    }
 }

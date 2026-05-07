@@ -1,3 +1,8 @@
-print()
-print ("Hi How are you?")
-print()
+
+import requests
+
+response = requests.get("https://api.github.com")
+print(response.status_code)
+
+
+print("How how are you")
